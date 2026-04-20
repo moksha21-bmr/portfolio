@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Bommireddy Mokshagna – Computer Science undergraduate specializing in Artificial Intelligence. Portfolio showcasing projects, skills, and experience." />
+  <title>Mokshagna · AI Developer Portfolio</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🤖</text></svg>" />
+</head>
+<body>
+
+<!-- CURSOR -->
+<div id="cursor"></div>
+<div id="cursor-trail"></div>
+
+<!-- PARTICLE CANVAS -->
+<canvas id="particle-canvas" style="position:fixed;inset:0;z-index:0;pointer-events:none;opacity:0.6"></canvas>
+
+<!-- ══════════════════════════════════════════════
+     NAVIGATION
+══════════════════════════════════════════════ -->
+<nav id="nav">
+  <a href="#hero" class="nav-logo">M<span>.</span>K</a>
+  <div class="nav-links">
+    <a href="#hero" class="active">Home</a>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#experience">Experience</a>
+    <a href="#education">Education</a>
+    <a href="#certifications">Certs</a>
+    <a href="#contact">Contact</a>
+    <a href="assets/Resume_Moksha.pdf" download="Bommireddy_Mokshagna_Resume.pdf" class="nav-cta">↓ Resume</a>
+  </div>
+</nav>
+
+
+<!-- ══════════════════════════════════════════════
+     01 · HERO
+══════════════════════════════════════════════ -->
+<section id="hero" class="page">
+  <div class="hero-grid-bg"></div>
+  <div class="hero-orb hero-orb-1"></div>
+  <div class="hero-orb hero-orb-2"></div>
+  <div class="hero-orb hero-orb-3"></div>
+
+  <div class="hero-content">
+    <div class="hero-badge">
+      <span class="hero-badge-dot"></span>
+      Available for Opportunities · B.Tech 2026
+    </div>
+
+    <h1 class="hero-name">
+      <span class="line1">BOMMIREDDY</span>
+      <span class="line2"><span class="typed">MOKSHAGNA</span></span>
+    </h1>
+
+    <p class="hero-tagline">
+      CS undergraduate specializing in <em>Artificial Intelligence</em> — building real-time, AI-driven applications that scale.
+    </p>
+
+    <div class="hero-stats">
+      <div class="stat-item">
+        <div class="stat-number">5<span>+</span></div>
+        <div class="stat-label">Projects Built</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-number">4<span>+</span></div>
+        <div class="stat-label">Certifications</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-number">81<span>%</span></div>
+        <div class="stat-label">B.Tech CGPA</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-number">3<span>+</span></div>
+        <div class="stat-label">Languages</div>
+      </div>
+    </div>
+
+    <div class="hero-actions">
+      <a href="#projects" class="btn btn-primary">View Projects →</a>
+      <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+      <a href="assets/Resume_Moksha.pdf" download="Bommireddy_Mokshagna_Resume.pdf" class="btn btn-outline">↓ Download CV</a>
+    </div>
+  </div>
+
+  <div class="scroll-indicator">
+    <div class="scroll-line"></div>
+    <span>Scroll</span>
+  </div>
+</section>
+
+
+<!-- ══════════════════════════════════════════════
+     02 · ABOUT
+══════════════════════════════════════════════ -->
+<section id="about" class="page">
+  <div class="section-wrap">
+    <div class="section-label">01 — About Me</div>
+    <div class="about-grid">
+
+      <!-- Visual -->
+      <div class="about-visual reveal-left">
+        <div class="about-photo-frame">
+          <div class="about-photo-bg"></div>
+          <div class="about-photo-inner">
+            <!-- Place your photo at assets/images/profile/photo.jpg -->
+            <img src="assets/images/profile/photo.jpg" alt="Bommireddy Mokshagna"
+                 onerror="this.style.display='none'; this.parentElement.querySelector('.about-photo-placeholder').style.display='flex'">
+            <div class="about-photo-placeholder" style="display:none">
+              <div class="icon">👨‍💻</div>
+              <p>Add your photo to<br>assets/images/profile/photo.jpg</p>
+            </div>
+          </div>
+          <div class="about-photo-tag">
+            <div class="tag-num">2026</div>
+            <div class="tag-label">Graduating</div>
+          </div>
+          <div class="about-photo-tag2">
+            <div class="tag-icon">🤖</div>
+            <div class="tag-txt">AI Specialist</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Text -->
+      <div class="about-text reveal-right">
+        <h2 class="section-title">Crafting <em>intelligent</em> software experiences</h2>
+        <p class="about-bio">
+          I'm a motivated <strong>Computer Science undergraduate</strong> specializing in Artificial Intelligence from PBR Visvodaya Institute of Technology and Science, graduating in <strong>2026</strong>. I design and develop real-time, AI-driven applications focused on scalability, performance, and user experience.
+        </p>
+        <p class="about-bio">
+          From building an <strong>Edge AI Emotion Recognition system</strong> to a full medical inventory platform — I love turning ideas into working, impactful solutions.
+        </p>
+
+        <div class="about-details reveal delay-2">
+          <div class="detail-item">
+            <div class="detail-label">📍 Location</div>
+            <div class="detail-value">Andhra Pradesh, India</div>
+          </div>
+          <div class="detail-item">
+            <div class="detail-label">📧 Email</div>
+            <div class="detail-value" style="font-size:0.75rem">bommireddymokshagna@gmail.com</div>
+          </div>
+          <div class="detail-item">
+            <div class="detail-label">📱 Phone</div>
+            <div class="detail-value">+91 6302546345</div>
+          </div>
+          <div class="detail-item">
+            <div class="detail-label">🎓 Degree</div>
+            <div class="detail-value">B.Tech CSE (AI)</div>
+          </div>
+        </div>
+
+        <div class="reveal delay-3">
+          <div class="detail-label" style="margin-bottom:0.6rem">🗣️ Languages</div>
+          <div class="lang-chips">
+            <span class="lang-chip">Telugu</span>
+            <span class="lang-chip">English</span>
+            <span class="lang-chip">Hindi</span>
+          </div>
+        </div>
+
+        <div class="hero-actions reveal delay-4" style="justify-content:flex-start;margin-top:1.5rem">
+          <a href="#contact" class="btn btn-primary">Hire Me →</a>
+          <a href="assets/Resume_Moksha.pdf" download="Bommireddy_Mokshagna_Resume.pdf" class="btn btn-secondary">↓ Download Resume</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ══════════════════════════════════════════════
+     03 · SKILLS
+══════════════════════════════════════════════ -->
+<section id="skills" class="page">
+  <div class="section-wrap">
+    <div class="section-label">02 — Technical Skills</div>
+    <h2 class="section-title reveal">My <em>toolkit</em> &amp; expertise</h2>
+    <p class="section-sub reveal delay-1">Technologies and tools I use to build scalable, intelligent applications.</p>
+
+    <div class="skills-grid">
+
+      <div class="skill-card reveal delay-1">
+        <div class="skill-card-icon">🐍</div>
+        <div class="skill-card-title">Programming Languages</div>
+        <div class="skill-card-sub">Core Languages</div>
+        <div class="skill-tags">
+          <span class="skill-tag">Python</span>
+          <span class="skill-tag">C</span>
+          <span class="skill-tag">SQL</span>
+        </div>
+      </div>
+
+      <div class="skill-card reveal delay-2">
+        <div class="skill-card-icon">🌐</div>
+        <div class="skill-card-title">Web Technologies</div>
+        <div class="skill-card-sub">Frontend Stack</div>
+        <div class="skill-tags">
+          <span class="skill-tag purple">HTML5</span>
+          <span class="skill-tag purple">CSS3</span>
+          <span class="skill-tag purple">JavaScript</span>
+        </div>
+      </div>
+
+      <div class="skill-card reveal delay-3">
+        <div class="skill-card-icon">☁️</div>
+        <div class="skill-card-title">Cloud Technologies</div>
+        <div class="skill-card-sub">AWS Fundamentals</div>
+        <div class="skill-tags">
+          <span class="skill-tag gold">AWS EC2</span>
+          <span class="skill-tag gold">AWS S3</span>
+          <span class="skill-tag gold">Cloud Fundamentals</span>
+        </div>
+      </div>
+
+      <div class="skill-card reveal delay-1">
+        <div class="skill-card-icon">🧠</div>
+        <div class="skill-card-title">AI &amp; Core Concepts</div>
+        <div class="skill-card-sub">Foundational Knowledge</div>
+        <div class="skill-tags">
+          <span class="skill-tag green">Machine Learning</span>
+          <span class="skill-tag green">AI Basics</span>
+          <span class="skill-tag green">Data Structures</span>
+          <span class="skill-tag green">OOP</span>
+        </div>
+      </div>
+
+      <div class="skill-card reveal delay-2">
+        <div class="skill-card-icon">🛠️</div>
+        <div class="skill-card-title">Tools &amp; Platforms</div>
+        <div class="skill-card-sub">Dev Environment</div>
+        <div class="skill-tags">
+          <span class="skill-tag">Git</span>
+          <span class="skill-tag">VS Code</span>
+          <span class="skill-tag">APIs</span>
+        </div>
+      </div>
+
+      <div class="skill-card reveal delay-3">
+        <div class="skill-card-icon">💡</div>
+        <div class="skill-card-title">Soft Skills</div>
+        <div class="skill-card-sub">Professional Strengths</div>
+        <div class="skill-tags">
+          <span class="skill-tag purple">Problem Solving</span>
+          <span class="skill-tag purple">Debugging</span>
+          <span class="skill-tag purple">Team Collaboration</span>
+          <span class="skill-tag purple">Adaptability</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ══════════════════════════════════════════════
+     04 · PROJECTS
+══════════════════════════════════════════════ -->
+<section id="projects" class="page">
+  <div class="section-wrap">
+    <div class="section-label">03 — Projects</div>
+    <h2 class="section-title reveal">Things I've <em>built</em></h2>
+    <p class="section-sub reveal delay-1">Real-world applications built with a focus on performance, usability, and intelligent design.</p>
+
+    <div class="projects-grid">
+
+      <!-- Project 1 -->
+      <div class="project-card reveal delay-1">
+        <div class="project-img">
+          <!-- Add image: assets/images/projects/emotion-ai.jpg -->
+          <img src="assets/images/projects/emotion-ai.jpg" alt="Emotion AI"
+               onerror="this.style.display='none'; this.parentElement.querySelector('.project-img-placeholder').style.display='flex'">
+          <div class="project-img-placeholder">
+            <span class="proj-icon">🎭</span>
+            <span class="proj-label">emotion-ai.jpg</span>
+          </div>
+          <div class="project-num">01</div>
+          <div class="project-featured-tag">Featured</div>
+        </div>
+        <div class="project-body">
+          <div class="project-name">Edge AI Emotion Recognition &amp; Music Recommendation</div>
+          <div class="project-desc">Real-time emotion detection system using AI to analyze facial expressions, paired with an intelligent music recommendation engine.</div>
+          <div class="project-tech">
+            <span class="tech-pill">Python</span>
+            <span class="tech-pill">AI/ML</span>
+            <span class="tech-pill">APIs</span>
+            <span class="tech-pill">Edge Computing</span>
+          </div>
+          <ul class="project-highlights">
+            <li>Real-time facial expression analysis using AI techniques</li>
+            <li>Recommendation engine based on detected emotional states</li>
+            <li>Reduced latency &amp; improved response time</li>
+            <li>Personalized, adaptive user experience outputs</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="project-card reveal delay-2">
+        <div class="project-img">
+          <img src="assets/images/projects/inventory.jpg" alt="Inventory System"
+               onerror="this.style.display='none'; this.parentElement.querySelector('.project-img-placeholder').style.display='flex'">
+          <div class="project-img-placeholder">
+            <span class="proj-icon">💊</span>
+            <span class="proj-label">inventory.jpg</span>
+          </div>
+          <div class="project-num">02</div>
+        </div>
+        <div class="project-body">
+          <div class="project-name">Inventory Management System (Medical Domain)</div>
+          <div class="project-desc">A comprehensive medical inventory system for efficient stock management with automated tracking and normalized database architecture.</div>
+          <div class="project-tech">
+            <span class="tech-pill">Python</span>
+            <span class="tech-pill">SQL</span>
+            <span class="tech-pill">Database Design</span>
+          </div>
+          <ul class="project-highlights">
+            <li>Stock level, expiry date &amp; supplier tracking</li>
+            <li>Automated manual processes for operational efficiency</li>
+            <li>Normalized database for fast, reliable retrieval</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Project 3 -->
+      <div class="project-card reveal delay-3">
+        <div class="project-img">
+          <img src="assets/images/projects/medtrack.jpg" alt="MedTrack"
+               onerror="this.style.display='none'; this.parentElement.querySelector('.project-img-placeholder').style.display='flex'">
+          <div class="project-img-placeholder">
+            <span class="proj-icon">❤️‍🩺</span>
+            <span class="proj-label">medtrack.jpg</span>
+          </div>
+          <div class="project-num">03</div>
+        </div>
+        <div class="project-body">
+          <div class="project-name">MedTrack – Health Monitoring Application</div>
+          <div class="project-desc">A health monitoring application to manage and track user health data with a clean, user-friendly interface and secure data handling.</div>
+          <div class="project-tech">
+            <span class="tech-pill">Python</span>
+            <span class="tech-pill">HTML</span>
+            <span class="tech-pill">CSS</span>
+          </div>
+          <ul class="project-highlights">
+            <li>Health data management &amp; tracking</li>
+            <li>Clean, user-friendly interface design</li>
+            <li>Secure &amp; structured data storage</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Project 4 -->
+      <div class="project-card reveal delay-1">
+        <div class="project-img">
+          <img src="assets/images/projects/weather.jpg" alt="Weather App"
+               onerror="this.style.display='none'; this.parentElement.querySelector('.project-img-placeholder').style.display='flex'">
+          <div class="project-img-placeholder">
+            <span class="proj-icon">🌦️</span>
+            <span class="proj-label">weather.jpg</span>
+          </div>
+          <div class="project-num">04</div>
+        </div>
+        <div class="project-body">
+          <div class="project-name">Weather Forecast Monitoring System</div>
+          <div class="project-desc">A real-time weather application using external APIs to display key weather metrics with a responsive UI and robust error handling.</div>
+          <div class="project-tech">
+            <span class="tech-pill">JavaScript</span>
+            <span class="tech-pill">APIs</span>
+            <span class="tech-pill">Responsive UI</span>
+          </div>
+          <ul class="project-highlights">
+            <li>Real-time weather via external APIs</li>
+            <li>Temperature, humidity, conditions display</li>
+            <li>Responsive UI with error handling</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Project 5 -->
+      <div class="project-card reveal delay-2">
+        <div class="project-img">
+          <img src="assets/images/projects/portfolio.jpg" alt="Portfolio"
+               onerror="this.style.display='none'; this.parentElement.querySelector('.project-img-placeholder').style.display='flex'">
+          <div class="project-img-placeholder">
+            <span class="proj-icon">🎨</span>
+            <span class="proj-label">portfolio.jpg</span>
+          </div>
+          <div class="project-num">05</div>
+        </div>
+        <div class="project-body">
+          <div class="project-name">Personal Portfolio Website</div>
+          <div class="project-desc">A fully responsive personal portfolio showcasing technical skills, projects, and achievements with an intuitive UI/UX design.</div>
+          <div class="project-tech">
+            <span class="tech-pill">HTML</span>
+            <span class="tech-pill">CSS</span>
+            <span class="tech-pill">JavaScript</span>
+          </div>
+          <ul class="project-highlights">
+            <li>Fully responsive across all devices</li>
+            <li>Clean, intuitive UI/UX design</li>
+            <li>Showcases skills, projects &amp; achievements</li>
+          </ul>
+        </div>
+      </div>
+
+    </div><!-- /projects-grid -->
+  </div>
+</section>
+
+
+<!-- ══════════════════════════════════════════════
+     05 · EXPERIENCE
+══════════════════════════════════════════════ -->
+<section id="experience" class="page">
+  <div class="section-wrap">
+    <div class="section-label">04 — Experience</div>
+    <h2 class="section-title reveal">Where I've <em>worked</em></h2>
+    <p class="section-sub reveal delay-1">Professional experience contributing to real-world software development.</p>
+
+    <div class="exp-timeline">
+      <div class="exp-item reveal">
+        <div class="exp-dot"></div>
+        <div class="exp-card">
+          <div class="exp-header">
+            <div>
+              <div class="exp-title">Full Stack Python Developer Intern</div>
+              <div class="exp-company">CodeTantra</div>
+            </div>
+            <div class="exp-period">2025</div>
+          </div>
+          <ul class="exp-points">
+            <li>Developed and maintained web applications using Python technologies</li>
+            <li>Worked on frontend and backend integration for seamless functionality</li>
+            <li>Improved code quality through debugging, testing, and optimization</li>
+            <li>Collaborated with team members using version control and best coding practices</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ══════════════════════════════════════════════
+     06 · EDUCATION
+══════════════════════════════════════════════ -->
+<section id="education" class="page">
+  <div class="section-wrap">
+    <div class="section-label">05 — Education</div>
+    <h2 class="section-title reveal">Academic <em>journey</em></h2>
+    <p class="section-sub reveal delay-1">A strong academic foundation built across three institutions.</p>
+
+    <div class="edu-cards">
+
+      <div class="edu-card reveal delay-1">
+        <div class="edu-year">2022–26</div>
+        <div class="edu-body">
+          <div class="edu-degree">B.Tech – Computer Science &amp; Engineering (Artificial Intelligence)</div>
+          <div class="edu-school">PBR Visvodaya Institute of Technology and Science</div>
+          <div class="edu-period">2022 – 2026 · Currently Pursuing</div>
+        </div>
+        <div class="edu-score">
+          <div class="score-ring">
+            <svg width="80" height="80" viewBox="0 0 80 80">
+              <circle class="track" cx="40" cy="40" r="35"/>
+              <circle class="fill" cx="40" cy="40" r="35" data-pct="81" stroke-dasharray="220" stroke-dashoffset="220"/>
+            </svg>
+            <div class="score-ring-label">
+              <div class="score-pct">81%</div>
+              <div class="score-sub">Aggregate</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="edu-card reveal delay-2">
+        <div class="edu-year">2020–22</div>
+        <div class="edu-body">
+          <div class="edu-degree">Intermediate (MPC)</div>
+          <div class="edu-school">Sri Chaitanya Junior College</div>
+          <div class="edu-period">2020 – 2022</div>
+        </div>
+        <div class="edu-score">
+          <div class="score-ring">
+            <svg width="80" height="80" viewBox="0 0 80 80">
+              <circle class="track" cx="40" cy="40" r="35"/>
+              <circle class="fill purple" cx="40" cy="40" r="35" data-pct="93.5" stroke-dasharray="220" stroke-dashoffset="220"/>
+            </svg>
+            <div class="score-ring-label">
+              <div class="score-pct">93.5%</div>
+              <div class="score-sub">Aggregate</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="edu-card reveal delay-3">
+        <div class="edu-year">2020</div>
+        <div class="edu-body">
+          <div class="edu-degree">Secondary School Certificate (SSC)</div>
+          <div class="edu-school">Sri Sai Vidya Nikethan English Medium High School</div>
+          <div class="edu-period">2020</div>
+        </div>
+        <div class="edu-score">
+          <div class="score-ring">
+            <svg width="80" height="80" viewBox="0 0 80 80">
+              <circle class="track" cx="40" cy="40" r="35"/>
+              <circle class="fill green" cx="40" cy="40" r="35" data-pct="98" stroke-dasharray="220" stroke-dashoffset="220"/>
+            </svg>
+            <div class="score-ring-label">
+              <div class="score-pct">98%</div>
+              <div class="score-sub">Aggregate</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ══════════════════════════════════════════════
+     07 · CERTIFICATIONS
+══════════════════════════════════════════════ -->
+<section id="certifications" class="page">
+  <div class="section-wrap">
+    <div class="section-label">06 — Certifications</div>
+    <h2 class="section-title reveal">Proof of <em>learning</em></h2>
+    <p class="section-sub reveal delay-1">Verified credentials from reputed organizations.</p>
+
+    <div class="certs-grid">
+
+      <div class="cert-card reveal delay-1">
+        <div class="cert-icon">☁️</div>
+        <div class="cert-name">AWS Certification</div>
+        <div class="cert-issuer">The Website Makers</div>
+        <span class="cert-year">2026</span>
+      </div>
+
+      <div class="cert-card reveal delay-2">
+        <div class="cert-icon">💼</div>
+        <div class="cert-name">Employability Skills Program</div>
+        <div class="cert-issuer">EduBridge &amp; Infosys</div>
+        <span class="cert-year">2025</span>
+      </div>
+
+      <div class="cert-card reveal delay-3">
+        <div class="cert-icon">☕</div>
+        <div class="cert-name">Java Fundamentals &amp; Data Structures</div>
+        <div class="cert-issuer">edX</div>
+        <span class="cert-year">2023</span>
+      </div>
+
+      <div class="cert-card reveal delay-4">
+        <div class="cert-icon">⚙️</div>
+        <div class="cert-name">C Programming Certification</div>
+        <div class="cert-issuer">Igate Solutions</div>
+        <span class="cert-year">2022</span>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ══════════════════════════════════════════════
+     08 · CONTACT
+══════════════════════════════════════════════ -->
+<section id="contact" class="page">
+  <div class="section-wrap">
+    <div class="section-label">07 — Contact</div>
+    <h2 class="section-title reveal">Let's <em>connect</em></h2>
+    <p class="section-sub reveal delay-1">Open to entry-level opportunities, collaborations, and interesting projects.</p>
+
+    <div class="contact-grid">
+
+      <div>
+        <div class="contact-item reveal delay-1">
+          <div class="contact-item-icon">📧</div>
+          <div>
+            <div class="contact-item-label">Email</div>
+            <div class="contact-item-value"><a href="mailto:bommireddymokshagna@gmail.com">bommireddymokshagna@gmail.com</a></div>
+          </div>
+        </div>
+
+        <div class="contact-item reveal delay-2">
+          <div class="contact-item-icon">📱</div>
+          <div>
+            <div class="contact-item-label">Phone</div>
+            <div class="contact-item-value"><a href="tel:+916302546345">+91 6302546345</a></div>
+          </div>
+        </div>
+
+        <div class="contact-item reveal delay-3">
+          <div class="contact-item-icon">📍</div>
+          <div>
+            <div class="contact-item-label">Location</div>
+            <div class="contact-item-value">Andhra Pradesh, India</div>
+          </div>
+        </div>
+
+        <div class="contact-item reveal delay-4">
+          <div class="contact-item-icon">🎓</div>
+          <div>
+            <div class="contact-item-label">Status</div>
+            <div class="contact-item-value">B.Tech Graduate 2026 · Open to Work</div>
+          </div>
+        </div>
+
+        <div class="contact-interests reveal delay-5">
+          <div class="detail-label" style="margin-bottom:0.6rem">🎨 Personal Interests</div>
+          <div class="interest-chips">
+            <span class="interest-chip">Drawing (Portraits)</span>
+            <span class="interest-chip">Creative Editing</span>
+            <span class="interest-chip">Script Writing</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact-cta reveal-scale">
+        <div class="contact-cta-title">Ready to build something <em>amazing</em> together?</div>
+        <p class="contact-cta-sub">I'm actively looking for entry-level roles where I can apply my AI &amp; full-stack skills to build real impact. Let's talk.</p>
+        <div class="contact-cta-actions">
+          <a href="mailto:bommireddymokshagna@gmail.com" class="btn btn-primary">Send Email →</a>
+          <a href="assets/Resume_Moksha.pdf" download="Bommireddy_Mokshagna_Resume.pdf" class="btn btn-outline">↓ Download Resume</a>
+        </div>
+
+        <div style="margin-top:2rem;padding-top:1.5rem;border-top:1px solid var(--border)">
+          <div style="font-size:0.65rem;text-transform:uppercase;letter-spacing:0.12em;color:var(--text-dim);margin-bottom:0.75rem">Key Strengths</div>
+          <div style="display:flex;flex-wrap:wrap;gap:0.5rem;">
+            <span class="skill-tag green">Quick Learner</span>
+            <span class="skill-tag">Analytical Thinking</span>
+            <span class="skill-tag purple">Team Player</span>
+            <span class="skill-tag gold">Detail-Oriented</span>
+            <span class="skill-tag green">Self-Motivated</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ══════════════════════════════════════════════
+     FOOTER
+══════════════════════════════════════════════ -->
+<footer>
+  <div class="footer-left">
+    © 2026 <span>Bommireddy Mokshagna</span> · Designed &amp; Built with ❤️
+  </div>
+  <div class="footer-right">
+    B.Tech CSE (AI) · PBR Visvodaya · Graduating 2026
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
