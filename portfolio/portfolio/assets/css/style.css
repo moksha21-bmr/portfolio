@@ -561,3 +561,25 @@ footer {
   body { cursor: auto; }
   #cursor, #cursor-trail { display: none; }
 }
+/* Tablet Styles (Screens smaller than 1024px) */
+@media (max-width: 1024px) {
+  .container {
+    width: 90%; /* Give content more room on smaller screens */
+  }
+}
+
+/* Mobile Styles (Screens smaller than 768px) */
+@media (max-width: 768px) {
+  .hero-section {
+    flex-direction: column; /* Stack your image and text vertically */
+    text-align: center;
+  }
+  
+  .nav-links {
+    display: none; /* Usually, we hide the nav and show a 'hamburger' menu here */
+  }
+
+  h1 {
+    font-size: 2rem; /* Make text smaller for mobile screens */
+  }
+}
